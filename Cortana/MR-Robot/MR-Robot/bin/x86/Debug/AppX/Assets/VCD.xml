@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+
+<VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.2">
+  <CommandSet xml:lang="en-US">
+    <CommandPrefix>Please</CommandPrefix>
+    <Example> turn on light</Example>
+
+    <Command Name="DeskLightsOn">
+      <Example> turn on light </Example>
+      <ListenFor> turn on light </ListenFor>
+      <ListenFor> turn on fight </ListenFor>
+      <Feedback> Turning On Light... </Feedback>
+      <Navigate />
+    </Command>
+
+    <Command Name="DeskLightsOff">
+      <Example> turn off light </Example>
+      <ListenFor> turn off light </ListenFor>
+      <ListenFor> turn off flight </ListenFor>
+      <Feedback> Turning off Light, My Lordship...</Feedback>
+      <Navigate />
+    </Command>
+
+  
+   <Command Name="PartyOn">
+      <Example> Start the Party </Example>
+      <ListenFor> Start the Party </ListenFor>
+      <ListenFor> Start the Party </ListenFor>
+      <Feedback> Let's raise the roof...   </Feedback>
+      <Navigate />
+    </Command>
+    
+  <Command Name="PartyOff">
+      <Example> Stop the Party </Example>
+      <ListenFor> Stop the Party </ListenFor>
+      <ListenFor> Stop the Party </ListenFor>
+      <Feedback> But party was just started!</Feedback>
+      <Navigate />
+    </Command>
+  
+  
+  
+  </CommandSet>
+  
+ 
+
+   
+
+   
+
+
+
+
+</VoiceCommands>
